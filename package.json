@@ -1,0 +1,22 @@
+{   "name": "sampleapp"
+  , "version": "0.0.1"
+  , "description": "A sample client-side app using requirejs, backbone, coffee-script, jade templates and stylus"
+  , "keywords": []
+  , "author": "David Rios <david.rios.gomes@gmail.com>"
+  , "repository": {
+      "type": "git",
+      "url": "https://github.com/davidrios/sampleapp.git",
+      "web": "https://github.com/davidrios/sampleapp"
+  }
+  , "dependencies": { 
+      "coffee-script" : ">= 1.1.3"
+  }
+  , "devDependencies": {
+      "express"       : "< 3.0"
+    , "connect"       : "< 2.0"
+    , "request"       : "< 2.3"
+    , "appcompiler"   : "git://github.com/davidrios/appcompiler.git#master"
+  }
+  , "main": "index"
+  , "engines": { "node": ">= 0.4.1 < 0.7.0" }
+}
